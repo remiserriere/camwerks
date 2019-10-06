@@ -1,0 +1,102 @@
+<!DOCTYPE style PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<style>
+body {
+	font: Verdana;
+	margin:10px;
+}
+
+.h2bg {
+  margin: 15px 0px 5px 0px;
+  padding: 3px;
+  background-color: #000000;
+  color:#ffffff
+}
+
+</style>
+</head>
+<body>
+
+	<h2>[CAMSHAFT_NAME]</h2>
+
+	
+
+    <h3 class="h2bg">[TEMPLATE_HEADER_LIFT]</h3>
+    
+    <table>
+        <tr>
+            <td></td>
+            [CAMSHAFT_COLUMNS_HEADERS]
+        </tr>
+
+        <tr>
+            <th>Cam lobe lift</th>
+            [CAMSHAFT_COLUMNS_LIFTS]
+        </tr>
+
+        <tr>
+            <th>Rocker 1.25</th>
+            [CAMSHAFT_COLUMNS_ROCKER_1.25]
+        </tr>
+
+        <tr>
+            <th>Rocker 1.4</th>
+            [CAMSHAFT_COLUMNS_ROCKER_1.4]
+        </tr>
+
+    </table>
+	
+	<h3 class="h2bg">[TEMPLATE_HEADER_DURATION]</h3>
+    <table>
+        <tr>
+            <td></td>
+            [CAMSHAFT_COLUMNS_HEADERS]
+        </tr>
+        [CAMSHAFT_COLUMNS_DURATION]
+    </table>
+
+
+
+    <h3 class="h2bg">[TEMPLATE_HEADER_OVERLAP]</h3>
+	<table>
+		<tr>
+			<td>
+				<table>
+			        <tr>
+			            <td></td>
+			            [CYLINDERS_COLUMNS_HEADERS]
+			        </tr>
+			        [CAMSHAFT_COLUMNS_OVERLAP]
+			        [CAMSHAFT_COLUMNS_LOBECENTER]
+			    </table>
+			</td>
+			<td>
+			</td>
+			<td>
+			</td>
+			<td>
+			</td>
+			<td>
+			</td>
+			<td>
+			</td>
+			<td>
+			</td>
+			<td>
+				<table>
+					<tr>
+						<td>
+							<img src="[FILE_PATH]shamwerks.jpg">
+						</td>
+						<td>
+							<p><i>CamWerks [CAMWERKS_VERSION]</i></p>
+							<p>ShamWerks.com &copy; 2017</p>
+						</td>
+					</tr>
+				</table>
+			</td>
+		</tr>
+	</table>
+</body>
+</html>
